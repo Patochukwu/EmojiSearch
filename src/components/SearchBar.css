@@ -29,9 +29,18 @@ input {
   font-size: 2rem;
 }
 
+.App {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(1, 6, 71);
+  
+}
+
 
 h1 {
   font-size: 50px;
+  margin-top: 0px;
   padding-bottom: 1rem;
   color: red;
   animation-name: heading;
