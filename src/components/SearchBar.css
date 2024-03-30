@@ -67,7 +67,7 @@ input:focus {
 .icon {
   list-style-type: none;
   margin: 4px;
-  font-size: 60px;
+  font-size: 65px;
 
 }
 
@@ -78,10 +78,12 @@ ul {
   overflow: scroll;
   margin-top: 30px;
   width: 60rem;
+  gap: 2rem;
 }
 
 .single {
-  font-size: 100px !important;
+  font-size: 200px !important;
+  
 }
 
 .copy-icon {
