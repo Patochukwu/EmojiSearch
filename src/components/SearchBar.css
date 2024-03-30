@@ -1,0 +1,81 @@
+/* * {
+ 
+} */
+
+.input-wrapper {
+  background-color: rgb(232, 229, 229);
+  width: 50%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #a5a2a2;
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+
+}
+
+.searchresults {
+  font-size: 2rem;
+}
+
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 1rem;
+  color: red;
+  animation-name: heading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heading {
+  1% {color: rgb(95, 197, 12);}
+  25% {color: rgb(24, 226, 165);}
+  50% {color: rgb(234, 0, 255);}
+  75% {color: rgb(13, 141, 13);}
+  100% {color: rgb(132, 6, 6);}
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: royalblue;
+}
+
+.icon {
+  list-style-type: none;
+  margin: 4px;
+  font-size: 60px;
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30rem;
+  overflow: scroll;
+  margin-top: 30px;
+  width: 60rem;
+}
+
+.single {
+  font-size: 100px !important;
+}
+
+.copy-icon {
+  font-size: 15px;
+  color: rgb(95, 93, 93);
+}
